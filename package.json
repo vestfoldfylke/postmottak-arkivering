@@ -21,8 +21,11 @@
   "homepage": "https://github.com/vestfoldfylke/postmottak-arkivering#readme",
   "dependencies": {
     "@azure/identity": "^4.5.0",
+    "@azure/identity-cache-persistence": "^1.1.1",
     "@microsoft/microsoft-graph-client": "^3.0.7",
-    "dotenv": "^16.4.7"
+    "@vtfk/logger": "^6.2.0",
+    "dotenv": "^16.4.7",
+    "file-system-cache": "^3.0.0"
   },
   "devDependencies": {
     "@types/microsoft-graph": "^2.40.0"
